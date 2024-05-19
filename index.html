@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Airline Management System</h1>
+
+    <div class="form-container">
+        <h2>Add Airplane</h2>
+        <form id="airplaneForm">
+            <label for="numser">Serial Number:</label>
+            <input type="text" id="numser" name="numser" required>
+
+            <label for="manufacturer">Manufacturer:</label>
+            <input type="text" id="manufacturer" name="manufacturer" required>
+
+            <label for="model">Model:</label>
+            <input type="text" id="model" name="model" required>
+
+            <button type="submit">Add Airplane</button>
+        </form>
+    </div>
+
+    <div class="form-container">
+        <h2>Add Flight</h2>
+        <form id="flightForm">
+            <label for="flightnum">Flight Number:</label>
+            <input type="text" id="flightnum" name="flightnum" required>
+
+            <label for="origin">Origin:</label>
+            <input type="text" id="origin" name="origin" required>
+
+            <label for="dest">Destination:</label>
+            <input type="text" id="dest" name="dest" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="deptime">Departure Time:</label>
+            <input type="time" id="deptime" name="deptime" required>
+
+            <label for="arrtime">Arrival Time:</label>
+            <input type="time" id="arrtime" name="arrtime" required>
+
+            <label for="airplanenum">Airplane Serial Number:</label>
+            <input type="text" id="airplanenum" name="airplanenum" required>
+
+            <button type="submit">Add Flight</button>
+        </form>
+    </div>
+
+    <div class="form-container">
+        <h2>Add Passenger</h2>
+        <form id="passengerForm">
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <button type="submit">Add Passenger</button>
+        </form>
+    </div>
+
+    <div class="form-container">
+        <h2>Add Staff</h2>
+        <form id="staffForm">
+            <label for="empnum">Employee Number:</label>
+            <input type="text" id="empnum" name="empnum" required>
+
+            <label for="surname">Surname:</label>
+            <input type="text" id="staffSurname" name="surname" required>
+
+            <label for="name">Name:</label>
+            <input type="text" id="staffName" name="name" required>
+
+            <label for="address">Address:</label>
+            <input type="text" id="staffAddress" name="address" required>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="staffPhone" name="phone" required>
+
+            <label for="salary">Salary:</label>
+            <input type="number" id="salary" name="salary" required>
+
+            <button type="submit">Add Staff</button>
+        </form>
+    </div>
+
+    <div class="form-container">
+        <h2>Add City</h2>
+        <form id="cityForm">
+            <label for="cityname">City Name:</label>
+            <input type="text" id="cityname" name="cityname" required>
+
+            <label for="citycode">City Code:</label>
+            <input type="text" id="citycode" name="citycode" required>
+
+            <button type="submit">Add City</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
